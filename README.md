@@ -89,13 +89,11 @@ If you wish to contribute to the project or run the application directly from it
     ```
 
 4.  **Run the Application:**
-    Once all dependencies are installed, you can run the application:
+    Once all dependencies are installed, you can run the application by executing your main script:
     ```bash
-    python your_main_script_name.py
+    python sub_gen.py
     ```
-    *(Replace `your_main_script_name.py` with the actual name of your main Python script, e.g., `main.py` or `app.py`.)*
-
----
+    *(**Note for Developers:** If your main script file is named something other than `sub_gen.py` (e.g., `main.py` or `app.py`), please adjust the command accordingly.)*
 
 ## License
 
