@@ -26,7 +26,7 @@ Since the program includes a large AI model, its size exceeds GitHub's file uplo
 
 1.  **Download the Executable:**
     Click the link below to download the program's ZIP archive:
-    **[Download SubGen v1.0.zip (2.7 GB)]([YOUR_CLOUD_STORAGE_DOWNLOAD_LINK_HERE](https://drive.google.com/file/d/1npooDmZgUxABuJ5RGkabPDKI3q_-AJox/view?usp=drive_link)**
+    **[Download SubGen v1.0.zip (2.7 GB)]((https://drive.google.com/file/d/1npooDmZgUxABuJ5RGkabPDKI3q_-AJox/view?usp=drive_link)**
     *(Please allow the file to download completely, given its size.)*
 
 2.  **Extract the Archive:**
