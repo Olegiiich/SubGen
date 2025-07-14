@@ -57,6 +57,44 @@ For stable operation of the SubGen application, the following system requirement
 4.  Click the "Generate Subtitles" (or similar) button.
 5.  Wait for the process to complete. The generated subtitles will be saved in the specified location.
 
+## For Developers (Running from Source)
+
+If you wish to contribute to the project or run the application directly from its source code, follow these steps:
+
+1.  **Clone the Repository:**
+    Open your terminal (Command Prompt or PowerShell) and clone the project:
+    ```bash
+    git clone [https://github.com/Olegiiich/SubGen.git](https://github.com/Olegiiich/SubGen.git)
+    cd SubGen
+    ```
+
+2.  **Create and Activate a Virtual Environment:**
+    It's highly recommended to use a virtual environment to manage project dependencies.
+    ```bash
+    python -m venv .venv
+    ```
+    * **On Command Prompt (cmd.exe):**
+        ```bash
+        .venv\Scripts\activate
+        ```
+    * **On PowerShell:**
+        ```powershell
+        .venv\Scripts\Activate.ps1
+        ```
+
+3.  **Install Dependencies:**
+    With the virtual environment active, install all required Python packages using `pip`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Application:**
+    Once all dependencies are installed, you can run the application:
+    ```bash
+    python your_main_script_name.py
+    ```
+    *(Replace `your_main_script_name.py` with the actual name of your main Python script, e.g., `main.py` or `app.py`.)*
+
 ---
 
 ## License
