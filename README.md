@@ -20,6 +20,17 @@ A key advantage of SubGen is its ability to operate completely offline. Once dow
 
 ---
 
+## Screenshots
+
+![SubGen Screenshot 1](screenshots/subgen1.png)
+
+![SubGen Screenshot 2](screenshots/subgen2.png)
+
+![SubGen Screenshot 3](screenshots/subgen3.png)
+
+
+---
+
 ## Download and Installation
 
 Since the program includes a large AI model, its size exceeds GitHub's file upload limit (2 GB). Therefore, the executable file is available for download via external cloud storage.
