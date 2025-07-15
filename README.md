@@ -26,7 +26,7 @@ Since the program includes a large AI model, its size exceeds GitHub's file uplo
 
 1.  **Download the Executable:**
     Click the link below to download the program's ZIP archive:
-    **[Download SubGen v1.0.zip (2.7 GB)](YOUR_CLOUD_STORAGE_DOWNLOAD_LINK_HERE)**
+    **[Download SubGen v1.0.zip (2.7 GB)](https://drive.google.com/file/d/1npooDmZgUxABuJ5RGkabPDKI3q_-AJox/view?usp=drive_link)**
     *(Please allow the file to download completely, given its size.)*
 
 2.  **Extract the Archive:**
@@ -57,7 +57,43 @@ For stable operation of the SubGen application, the following system requirement
 4.  Click the "Generate Subtitles" (or similar) button.
 5.  Wait for the process to complete. The generated subtitles will be saved in the specified location.
 
----
+## For Developers (Running from Source)
+
+If you wish to contribute to the project or run the application directly from its source code, follow these steps:
+
+1.  **Clone the Repository:**
+    Open your terminal (Command Prompt or PowerShell) and clone the project:
+    ```bash
+    git clone [https://github.com/Olegiiich/SubGen.git](https://github.com/Olegiiich/SubGen.git)
+    cd SubGen
+    ```
+
+2.  **Create and Activate a Virtual Environment:**
+    It's highly recommended to use a virtual environment to manage project dependencies.
+    ```bash
+    python -m venv .venv
+    ```
+    * **On Command Prompt (cmd.exe):**
+        ```bash
+        .venv\Scripts\activate
+        ```
+    * **On PowerShell:**
+        ```powershell
+        .venv\Scripts\Activate.ps1
+        ```
+
+3.  **Install Dependencies:**
+    With the virtual environment active, install all required Python packages using `pip`:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the Application:**
+    Once all dependencies are installed, you can run the application by executing your main script:
+    ```bash
+    python sub_gen.py
+    ```
+    *(**Note for Developers:** If your main script file is named something other than `sub_gen.py` (e.g., `main.py` or `app.py`), please adjust the command accordingly.)*
 
 ## License
 
